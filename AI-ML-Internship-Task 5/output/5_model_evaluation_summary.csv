@@ -1,0 +1,3 @@
+Model,Test Accuracy (20% Split),Mean CV Accuracy (5-fold),CV Std Dev
+Decision Tree (Tuned),1.0,0.9882926829268293,0.010951192351533497
+Random Forest,1.0,0.9912195121951219,0.007169238271560528
