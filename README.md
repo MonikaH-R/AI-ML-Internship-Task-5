@@ -4,7 +4,8 @@ Heart Disease Classification: Decision Trees and Random Forests
 **Objective:**
 This project implements and compares two fundamental machine learning algorithms—Decision Trees and Random Forests—for a classification task, specifically predicting the presence of heart disease based on clinical features.
 
-The analysis focuses on understanding how tree-based models work, diagnosing and mitigating overfitting, and evaluating model performance using cross-validation.
+The analysis focuses on understanding how tree-based models work, diagnosing and mitigating overfitting, and
+evaluating model performance using cross-validation.
 
  **Features and Analysis Steps**
 
@@ -21,14 +22,14 @@ The analysis focuses on understanding how tree-based models work, diagnosing and
 ** Prerequisites**
 To run this script, you need Python and the following libraries:
 
-Python 3.x
-pandas
-numpy
-scikit-learn
-matplotlib
+1. Python 3.x
+2. pandas
+3. numpy
+4. scikit-learn
+5. matplotlib
+
 
 **You can install all necessary libraries using pip:**
-
 pip install pandas numpy scikit-learn matplotlib
 
 
@@ -50,7 +51,6 @@ Heart_Disease_Analysis/
 **3. Run the Script**
 
 Execute the Python file from your terminal:
-
 python decision_tree_analysis.py
 
 **The script will automatically create the output/ folder and populate it with the results.
