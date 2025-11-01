@@ -50,41 +50,34 @@ Heart_Disease_Analysis/
 
 **3. Run the Script**
 
-Execute the Python file from your terminal:
+**Execute the Python file from your terminal:**
+
 python decision_tree_analysis.py
 
-**The script will automatically create the output/ folder and populate it with the results.
-**
- **Results and Output**
+The script will automatically create the output/ folder and populate it with the results.
 
-Upon successful execution, the following files and folders will be created:
-
-Output Folder (output/)
-
+ 
 **File Name and Description**
 
 **1_decision_tree_visualization.png
-**
-A graphic visualization of the Decision Tree (limited depth for readability).
+** A graphic visualization of the Decision Tree (limited depth for readability).
 
 **2_dt_overfitting_analysis.png**
-
 A line plot showing how training and testing accuracy change with max_depth, identifying the optimal complexity.
 
 **4_rf_feature_importances.png**
-
 A bar chart displaying the top 10 most important features for prediction according to the Random Forest model.
 
 **5_model_evaluation_summary.csv**
-
 A CSV file summarizing the final performance metrics (Test Accuracy and Mean Cross-Validation Accuracy) for both the Tuned Decision Tree and Random Forest.
 
  **Code Details
 **
+
 The analysis is performed within the single file: decision_tree_analysis.py. Key sections include:
 
-1. **Data Preprocessing: **Handles loading the data and performing One-Hot Encoding on relevant categorical features (sex, cp, thal, etc.).
+1. **Data Preprocessing: ** Handles loading the data and performing One-Hot Encoding on relevant categorical features (sex, cp, thal, etc.).
 
 2. **Model Instantiation:** Uses DecisionTreeClassifier and RandomForestClassifier from sklearn.tree and sklearn.ensemble.
 
-3. **Evaluation: **Utilizes accuracy_score and cross_val_score for metric calculation.
+3. **Evaluation: ** Utilizes accuracy_score and cross_val_score for metric calculation.
